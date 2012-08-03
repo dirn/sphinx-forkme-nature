@@ -21,8 +21,12 @@ To use this theme for your Sphinx documenation, do the following:
     html_theme_path = ['_themes']
     html_theme = 'forkme_nature'
 
-3. Edit the ``theme.conf`` file in the ``forkme_nature`` folder to include a value
-   for ``github_repo``. For example::
+3. The following options can be set in ``theme.conf`` inside the
+   ``forkme_nature`` folder::
 
 
+    # Name of the GitHub repository
     github_repo = dirn/sphinx-forkme-nature
+
+    # Ribbon position, default is fixed, change to any other value for absolute
+    ribbon_fixed = yes
